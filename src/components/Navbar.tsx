@@ -5,8 +5,7 @@ import { SignInButton, SignUpButton, UserButton, useUser } from "@clerk/nextjs";
 import {
   HomeIcon,
   UserIcon,
-  Brain,
-  Github,
+  Sparkles,
   MenuIcon,
   XIcon,
 } from "lucide-react";
@@ -23,26 +22,15 @@ const Navbar = () => {
         {/* LOGO */}
         <Link href="/" className="flex items-center gap-3">
           <div className="p-2 bg-primary/10 rounded">
-            <Brain className="w-6 h-6 text-primary" />
+            <Sparkles className="w-6 h-6 text-primary" />
           </div>
           <span className="text-2xl font-bold font-mono">
-            AI<span className="text-primary">Assistant</span>
+            <span className="text-primary">Dream</span>
           </span>
         </Link>
 
         {/* Desktop Navigation */}
         <nav className="hidden md:flex items-center gap-6">
-          {/* github button */}
-          <a
-            href="https://github.com/AmanRai8/ai_assistant"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="flex items-center gap-3"
-          >
-            <div className="p-1.5 bg-primary/10 rounded">
-              <Github className="w-10 h-7.5 hover:text-primary transition-colors" />
-            </div>
-          </a>
           {isSignedIn ? (
             <>
               <Link
@@ -138,32 +126,10 @@ const Navbar = () => {
                 <UserIcon size={20} />
                 <span>Feedback</span>
               </Link>
-              <a
-                href="https://github.com/AmanRai8/ai_assistant"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="flex items-center gap-3"
-              >
-                <div className="p-1.5 bg-primary/10 rounded">
-                  <Github className="w-10 h-7.5 hover:text-primary transition-colors" />
-                </div>
-              </a>
               <UserButton afterSignOutUrl="/" />
             </>
           ) : (
             <>
-              <a
-                href="https://github.com/AmanRai8/ai_assistant"
-                target="_blank"
-                rel="noopener noreferrer"
-                aria-label="Open GitHub repository (new tab)"
-                title="GitHub: AmanRai8/ai_assistant"
-                className="flex items-center gap-3 justify-center"
-              >
-                <div className="p-1.5 bg-primary/10 rounded">
-                  <Github className="w-10 h-8 hover:text-primary transition-colors" />
-                </div>
-              </a>
               <SignInButton>
                 <Button
                   variant="outline"

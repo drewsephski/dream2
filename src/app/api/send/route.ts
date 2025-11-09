@@ -7,8 +7,8 @@ export async function POST(req: Request) {
     const { name, email, message } = await req.json();
 
     await resend.emails.send({
-      from: "AI Assistant <noreply@resend.dev>", // can be any email for Resend
-      to: "amanrai2002acr@gmail.com", // YOUR EMAIL
+      from: "Dream <noreply@resend.dev>", // can be any email for Resend
+      to: "drewsepeczi@gmail.com", // YOUR EMAIL
       subject: `New Feedback from ${name}`,
       html: `
         <h2>New Feedback Received</h2>

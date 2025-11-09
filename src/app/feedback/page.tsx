@@ -45,7 +45,7 @@ const FeedbackPage = () => {
           Feedback
         </h1>
         <p className="text-muted-foreground text-center mb-6">
-          We’d love to hear your thoughts! Help us improve AI Assistant.
+          We&apos;d love to hear your thoughts! Help us improve Dream.
         </p>
 
         {submitted && (

@@ -1,6 +1,6 @@
 <img src="./public/gif.gif" alt="banner gif" width="1200" height="250">
 
-# 🤖 AI Assistant
+# 🤖 Dream
 
 <p align="center">
   <a href="https://github.com/AmanRai8/ai_assistant/stargazers">
@@ -17,7 +17,7 @@
   </a>
 </p>
 
-Welcome to **AI Assistant**, your personal AI companion! This intelligent assistant helps you brainstorm ideas, solve problems, and interact with AI in real-time. Built with **Next.js**, **React**, **Clerk authentication**, and **Tailwind CSS**, this app is fully responsive and optimized for all devices.
+Welcome to **Dream**, your personal AI companion! This intelligent assistant helps you brainstorm ideas, solve problems, and interact with AI in real-time. Built with **Next.js**, **React**, **Clerk authentication**, and **Tailwind CSS**, this app is fully responsive and optimized for all devices.
 
 ---
 
@@ -76,13 +76,13 @@ Welcome to **AI Assistant**, your personal AI companion! This intelligent assist
 
 ![Home Screenshot](./public/homepage.png)
 
-**AI Assistant Call Interface**
+**Dream Call Interface**
 
 ![Call Start](./public/callStart.png)
 
 ![Call Started](./public/callStarted.png)
 
-## [⬆ Back to Top](#-ai-assistant)
+## [⬆ Back to Top](#-dream)
 
 **About**
 
@@ -98,7 +98,7 @@ Welcome to **AI Assistant**, your personal AI companion! This intelligent assist
 
 ---
 
-## [⬆ Back to Top](#-ai-assistant)
+## [⬆ Back to Top](#-dream)
 
 ## 🚀 Getting Started
 
@@ -158,4 +158,4 @@ Contributions are welcome!
 4. Push (`git push origin feature-branch`)
 5. Open a Pull Request
 
-## [⬆ Back to Top](#-ai-assistant)
+## [⬆ Back to Top](#-dream)

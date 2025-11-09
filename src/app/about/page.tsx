@@ -7,17 +7,17 @@ const AboutPage = () => (
     {/* Hero Section */}
     <div className="max-w-3xl text-center">
       <h1 className="text-4xl md:text-5xl font-bold mb-4">
-        About <span className="text-primary">AI Assistant</span>
+        About <span className="text-primary">Dream</span>
       </h1>
       <p className="text-muted-foreground text-lg md:text-xl mb-6">
-        AI Assistant helps you brainstorm ideas, solve problems, and interact
+        Dream helps you brainstorm ideas, solve problems, and interact
         with AI in real-time. Get instant insights, personalized responses, and
         a smarter way to work with AI.
       </p>
       <div className="relative w-64 md:w-80 h-64 md:h-80 mx-auto rounded-lg shadow-lg overflow-hidden">
         <Image
           src="/ai.jpg"
-          alt="AI Assistant"
+          alt="Dream"
           fill
           className="object-cover object-center"
         />

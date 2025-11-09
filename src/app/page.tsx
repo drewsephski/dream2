@@ -14,12 +14,12 @@ const Home = () => {
 
             {/* LEFT SIDE CONTENT */}
             <div className="lg:col-span-7 space-y-8 relative flex flex-col items-center lg:items-start text-center lg:text-left">
-              <h1 className="text-5xl md:text-6xl lg:text-7xl font-bold tracking-tight">
+              <h1 className="text-5xl md:text-6xl lg:text-7xl font-bold tracking-tight font-sans">
                 <div>
                   <span className="text-foreground">Your Personal</span>
                 </div>
                 <div>
-                  <span className="text-primary">AI Assistant</span>
+                  <span className="text-primary">AI Companion</span>
                 </div>
                 <div className="pt-2">
                   <span className="text-foreground">Always Ready</span>
@@ -95,7 +95,7 @@ const Home = () => {
                 <div className="absolute inset-0 overflow-hidden rounded-lg bg-cyber-black">
                   <Image
                     src="/ai.jpg"
-                    alt="AI Assistant"
+                    alt="Dream"
                     fill
                     className="object-cover object-center rounded-lg"
                   />

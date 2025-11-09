@@ -140,7 +140,7 @@ const GenerateProgramPage = () => {
         <div className="text-center mb-8">
           <h1 className="text-3xl font-bold font-mono">
             <span>Chat with </span>
-            <span className="text-primary uppercase">Your AI Assistant</span>
+            <span className="text-primary uppercase"> Dream</span>
           </h1>
           <p className="text-muted-foreground mt-2">
             Have a real-time voice conversation with AI to get help, brainstorm,
@@ -157,17 +157,17 @@ const GenerateProgramPage = () => {
               <div className="relative size-32 mb-4">
                 <Image
                   src="/ai.jpg"
-                  alt="AI Assistant"
+                  alt="Dream"
                   width={128}
                   height={128}
                   className="rounded-full object-cover"
                 />
               </div>
               <h2 className="text-xl font-bold text-foreground">
-                AI Assistant
+                Dream
               </h2>
               <p className="text-sm text-muted-foreground mt-1">
-                Your Personal AI Assistant
+                Your Personal Dream Assistant
               </p>
             </div>
           </Card>
@@ -208,7 +208,7 @@ const GenerateProgramPage = () => {
               {messages.map((msg, index) => (
                 <div key={index} className="message-item animate-fadeIn">
                   <div className="font-semibold text-xs text-muted-foreground mb-1">
-                    {msg.role === "assistant" ? "AI Assistant" : "You"}:
+                    {msg.role === "assistant" ? "Dream" : "You"}:
                   </div>
                   <p className="text-foreground">{msg.content}</p>
                 </div>
